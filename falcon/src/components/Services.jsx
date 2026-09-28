@@ -1,21 +1,21 @@
-import { Calculator, PencilRuler, Cable, ArrowUpRight } from 'lucide-react';
+import { Calculator, Cable, Layers, ArrowUpRight } from 'lucide-react';
 import { B, Img, useReveal } from '../hooks';
 
 const SERVICES = [
   {
     Icon: Calculator,
     num: '01',
-    title: 'CONCRETE ESTIMATION',
-    desc: 'Detailed quantity analysis and estimation services that help contractors and construction teams plan materials, costs and project requirements with greater confidence.',
-    features: ['BOQ & BBS Preparation', 'Material Scheduling', 'Cost Planning'],
+    title: 'REBAR ESTIMATION',
+    desc: 'Detailed rebar quantity analysis and estimation services that help contractors and construction teams plan materials, costs and project requirements with greater confidence.',
+    features: ['BOQ & BBS Preparation', 'Bar Bending Schedules', 'Material Scheduling'],
     img: `${B}banner/1.jpg`,
   },
   {
-    Icon: PencilRuler,
+    Icon: Layers,
     num: '02',
-    title: 'CONCRETE DETAILING',
-    desc: 'Precise construction detailing and documentation designed to support accurate execution, coordination and fabrication across all project types.',
-    features: ['Shop Drawings', 'CAD Detailing', 'Structural Plans'],
+    title: 'CONCRETE ESTIMATION',
+    desc: 'Accurate concrete quantity takeoffs and cost estimation tailored to give construction teams a clear picture of material volumes and project budgets.',
+    features: ['Volume Calculations', 'Cost Planning', 'Pour Scheduling'],
     img: `${B}banner/7.jpg`,
   },
   {
