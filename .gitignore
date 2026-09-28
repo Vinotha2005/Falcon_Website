@@ -1,0 +1,4 @@
+falcon/node_modules/
+falcon/dist/
+.DS_Store
+*.log
